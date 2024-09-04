@@ -3,14 +3,14 @@ nav {
   background-color: #333;
   color: #fff;
   transition: width 0.3s ease-in-out;
-  overflow-x:hidden;
-  white-space:nowrap;
+  overflow-x: hidden;
+  white-space: nowrap;
   flex-shrink: 0;
   position: relative;
 }
 
-nav.collapsed{
-  width:60px;
+nav.collapsed {
+  width: 60px;
 }
 
 nav ul {
@@ -19,10 +19,10 @@ nav ul {
   list-style: none;
 }
 
-nav ul li{
+nav ul li {
   padding: 15px;
   border-bottom: 1px solid #555;
-  text-align:center;
+  text-align: center;
 }
 
 nav ul li a {
@@ -32,26 +32,26 @@ nav ul li a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  position:relative;
+  position: relative;
 }
 
 nav.collapsed ul li a::before {
   content: attr(data-icon);
   display: inline-block;
   width: 100%;
-  text-align:center;
+  text-align: center;
 }
 
 nav.collapsed ul li a {
-  text-align:center;
+  text-align: center;
 }
 
 .toggle-button {
   position: absolute;
   top: 0px;
   left: 100%;
-  margin-left:-10px;
-  transform: translateX(-50%);
+  margin-left: -10px;
+  transform: translateX(-50%) rotate(270deg);
   background-color: #333;
   border: none;
   color: #fff;
@@ -62,5 +62,5 @@ nav.collapsed ul li a {
 }
 
 nav.collapsed .toggle-button {
-  transform: translateX(-50%) rotate(180deg);
+  transform: translateX(-50%) rotate(90deg);
 }

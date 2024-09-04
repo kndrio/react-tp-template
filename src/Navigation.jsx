@@ -13,7 +13,7 @@ const Navigation = () => {
   return (
     <nav className={isCollapsed ? "collapsed" : ""}>
       <button className="toggle-button" onClick={toggleMenu}>
-        >
+        ⏏
       </button>
       <ul>
         <li>

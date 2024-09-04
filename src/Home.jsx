@@ -4,8 +4,8 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <h1>Estudo Chamadas Assíncronas </h1>
-      <p>Click nos links para visualizar as práticas</p>
+      <h1>TEMPLATE PARA RESOLUÇÃO DE EXERCÍCIOS</h1>
+      <p>Click nos links para visualizar os exercícios</p>
     </div>
   );
 };

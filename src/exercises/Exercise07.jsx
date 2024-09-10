@@ -1,12 +1,12 @@
 // src/exercises/Exercise01.js
 import React from "react";
 
-const Exercise01 = () => {
+const Exercise07 = () => {
   return (
     <div>
-      <h1>Exercise 01</h1>
+      <h1>Exercise 07</h1>
     </div>
   );
 };
 
-export default Exercise01;
+export default Exercise07;
